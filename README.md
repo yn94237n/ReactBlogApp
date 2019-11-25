@@ -1,3 +1,11 @@
+This repository contains the project source code for creating a React single page blog static website. I would like to emphasize that even thought it is a static blog website, this blog application gets the blog posts data from a Json file which it is located in the public folder. The Json file name is "blog_posts.json" and is conformed by the following data: post id, title, postdate, preview, body, and the image file name of the post.
+
+This file is loaded to the application by implementing the Axios library.
+
+The funcionality of this app is very simple. It consists of a home page which displays a preview information from a bunch of posts (title, post date, preview, and image) stored in a Json file. Once one post is selected by clicking on the post title or image, the application displays the completed detail information of the post.
+
+Additionally, the website contains a NavBar in the right side with a link thar redirect to the home page. Also, a twitter widget was included which is updated every 5 seconds. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
